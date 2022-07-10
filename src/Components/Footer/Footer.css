@@ -1,0 +1,11 @@
+.footer{
+    padding: 2%;
+}
+
+.footerBanner{
+    background-color: #f28033;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}

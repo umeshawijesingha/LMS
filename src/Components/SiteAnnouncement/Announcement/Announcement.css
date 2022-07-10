@@ -1,0 +1,16 @@
+.announcements{
+    padding-top: 50px;
+    padding-left: 10%;
+    width: 120%;
+    height: 200px !important;
+    margin-bottom: 8px;
+}
+.announcements .card{
+    height: 200px;
+    padding-bottom: 2px;
+   
+}
+.announcements .card:active{
+   border: 2px solid black;
+}
+

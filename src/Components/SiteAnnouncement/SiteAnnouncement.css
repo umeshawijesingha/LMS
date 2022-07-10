@@ -1,0 +1,20 @@
+.siteAnnouncement{
+    padding: 50px;
+    color:#0f6fc5;
+    text-align: center;
+}
+.siteAnnouncement::before,.siteAnnouncement::after{
+    border-bottom: 1px solid #0f6fc5;
+    border-top:1px solid #0f6fc5;
+    content: "";
+    width:8rem;
+    height: 5px;
+    margin: 0,0.3rem;
+  
+    vertical-align: center;
+    display: inline-block;
+    transform: translate(-1rem);
+}
+.siteAnnouncement::after{
+    transform: translate(1rem);
+}

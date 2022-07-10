@@ -1,0 +1,15 @@
+.logo{
+    width: 56px;
+    height: 70px;
+    margin-top: -15px;
+    padding: 0px;
+    float: left;
+}
+
+.headerTitle{
+    color: #0b0f11;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size:35px;
+
+}

@@ -1,0 +1,31 @@
+#loginForm{
+    margin-top: -500px;
+    margin-left: 55%;
+    width: 620px;
+    opacity: 0.95;
+    
+    
+}
+.loginTitle{
+    padding-top: 10px;;
+}
+
+.loginLabel{
+    font-size: 20px;
+    padding: 2px;
+}
+.form-control{
+  
+    background-color: aqua;
+}
+#loginContent{
+    height: 400px;
+    padding-left: 30px;
+}
+#loginBtn{
+    width: 100px;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+}
+
