@@ -7,7 +7,8 @@ const Login = () => {
   return (
     <div id="loginForm">
       <div className="card" id="loginContent">
-        {" "}
+        <div  className="loginsub">
+        
         <h3 className="loginTitle">Access to the platform</h3>
         <label className="loginLabel">Username</label>
         <div className="input-group mb-3">
@@ -39,10 +40,10 @@ const Login = () => {
 
    
     <button className="btn btn-primary" id="loginBtn">Log in</button>
-    <p>Forgotten your username or password?</p>
+    <p style={{"color":"blue","font-size":"20px","margin-top":"10px"}}>Forgotten your username or password?</p>
        
 
-       
+       </div>
       </div>
     </div>
   );

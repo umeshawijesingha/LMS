@@ -2,6 +2,7 @@
     padding: 50px;
     color:#0f6fc5;
     text-align: center;
+    
 }
 .siteAnnouncement::before,.siteAnnouncement::after{
     border-bottom: 1px solid #0f6fc5;

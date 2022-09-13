@@ -1,0 +1,33 @@
+body{
+    background-color: #EEF5F9;
+}
+.welcome-image{
+    padding: 6% 3% 5% 6% ;
+    width: 100%;
+}
+.welcome-inner{
+    padding-left: 6%;
+}
+.welcome-name{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    padding: auto;
+    margin-right: 3%;
+    margin-bottom: 10px;
+    border: 1px solid #EEF5F9;
+    
+}
+.welcome-name h1,h3{
+    padding: 2%;
+    color: #455A64;
+}
+.welcome-name h3{
+   padding-left: 45%;
+}
+.welcome-course{
+    background-color: rgb(255, 255, 255);
+    margin-left: 1px;
+    margin-right: 2px;
+   
+}
+

@@ -1,22 +1,30 @@
-
-import Footer from './Components/Footer/Footer';
+import React from 'react';
 import Header from './Components/Header/Header';
-import HomeBanner from './Components/HomeBanner/HomeBanner';
-import HomeImage from './Components/HomeImage/HomeImage';
-import HomeOption from './Components/HomeOption/HomeOption';
-import Login from './Components/Login/Login';
-import SiteAnnouncement from './Components/SiteAnnouncement/SiteAnnouncement';
+import SideBar from './Components/SideBar/SideBar';
+import WelcomeImage from './Components/WelcomeImage';
+
+import HomePage from './Pages/HomePage';
+import './App.css'
+
 function App() {
   return (
     <div className="App">
+      {/* <HomePage/> */}
+      <div className="row" >
+        <div className="col-2">
       
-        <Header/>
-        <HomeImage/>
-        <Login/>
-        <HomeOption/>
-        <SiteAnnouncement/>
-        <HomeBanner/>
-        <Footer/>
+       <SideBar/>
+        </div>
+      
+      <div className="col-8" >
+      <Header className="welocme" />
+      </div>
+      </div>
+
+      <WelcomeImage/>
+     
+     
+        
      
     </div>
   );

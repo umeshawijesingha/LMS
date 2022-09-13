@@ -1,9 +1,9 @@
 .announcements{
-    padding-top: 50px;
-    padding-left: 10%;
-    width: 120%;
+    
+   margin-left: 20%;
+    width: 80%;
     height: 200px !important;
-    margin-bottom: 8px;
+    margin-bottom: 50px;
 }
 .announcements .card{
     height: 200px;
@@ -13,4 +13,6 @@
 .announcements .card:active{
    border: 2px solid black;
 }
-
+.announcements .card-text{
+    align-items: left;
+}

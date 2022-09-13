@@ -1,11 +1,21 @@
 import React from 'react'
+import { useState } from 'react';
 import logo from '../../assets/logo_uwu_.jpg'
 import './Header.css'
+import {HiOutlineBell} from 'react-icons/hi'
+import {FaUserCircle} from 'react-icons/fa'
+import {MdOutlineArrowDropDown} from 'react-icons/md'
+
 
 
 const Header = () => {
-  return (
+  
+ let [user,setUser]=useState(true)
 
+
+return (
+
+   
     <div>
         
        
@@ -20,13 +30,24 @@ const Header = () => {
       <li className="nav-item">
         <a className="nav-link" href="#"> <h1 className='headerTitle'>Virtual Learning Environment</h1></a>
       </li>
-      
+      <li className="header-bell-icon"> {user && (<HiOutlineBell size={25}/>)}</li>
+      <li className="header-user-icon">{user && (<div><FaUserCircle size={40} style={{"color":"#E6E6E6"}}/><MdOutlineArrowDropDown/></div>)}</li>
+     
       
     </ul>
   </div>
 </nav>
 
-       
+{/* if(user){
+  <h1>logged in</h1>
+}else{
+  <h1>not logged in</h1>
+} */}
+
+
+  
+
+      
     </div>
   )
 }

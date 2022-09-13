@@ -7,15 +7,15 @@ const Footer = () => {
   return (
     <div>
         <div className='footer'>
-        <h4>Stay in touch</h4>
-        <h5>Contact us for any Technical difficulties and inquires</h5>
-        <BsGlobe/><a href=" http://www.uwu.ac.lk"> http://www.uwu.ac.lk</a><br/>
-        <BiEnvelope/><a href="  helphesk@uwu.ac.lk">  helphesk@uwu.ac.lk</a>
+        <h3>Stay in touch</h3>
+        <h4>Contact us for any Technical difficulties and inquires</h4>
+        <BsGlobe size={25}/><a href=" http://www.uwu.ac.lk"> http://www.uwu.ac.lk</a><br/>
+        <BiEnvelope size={25}/><a href="  helphesk@uwu.ac.lk">  helphesk@uwu.ac.lk</a>
         </div>
         
         <div className='footerBanner'>
-            <h6>PROUDLY MADE WITH Moodle logo</h6>
-            <h6>Made with  by conecti.me</h6>
+            <h6>PROUDLY MADE WITH UNW</h6>
+            <h6>All right reserved</h6>
         
         </div>
 
